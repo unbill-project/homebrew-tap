@@ -7,14 +7,14 @@ class UnbillTui < Formula
   on_macos do
     on_arm do
       url "https://github.com/unbill-project/unbill/releases/download/v0.0.3/unbill-tui-macos-aarch64.tar.gz"
-      sha256 "73df7e37fadcbfe396ef57d3d3da9eb1ffaa852c8cbe30e54bfb9ddfc5388952"
+      sha256 "995f846dd8428f648bfd06e88ef1916b5962c3627e2bd762bf56521ff049ee6a"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/unbill-project/unbill/releases/download/v0.0.3/unbill-tui-linux-x86_64.tar.gz"
-      sha256 "6876da96111074de7f8527b405a52cfd3ae15a2ad333be8a7cc6f7c91299346d"
+      sha256 "9534ea1dde3525f540b026b15520cdef60cc4ca214db10531cce062eb7dbb0c3"
     end
   end
 
