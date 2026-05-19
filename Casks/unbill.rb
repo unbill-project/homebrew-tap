@@ -1,6 +1,6 @@
 cask "unbill" do
   version "0.0.3"
-  sha256 "493ae314c4b662637ad00c113d19cc4289f311ec34c21352517e999640b4aafc"
+  sha256 "39f046ad00cfcc5f8ff5d019be398f61b2641ee03df6f40c447956e321616224"
 
   url "https://github.com/unbill-project/unbill/releases/download/v0.0.3/unbill-macos-aarch64.dmg"
   name "Unbill"
