@@ -1,20 +1,20 @@
 class UnbillCli < Formula
   desc "Unbill unbill-cli"
   homepage "https://github.com/unbill-project/unbill"
-  version "0.0.5"
+  version "0.0.6"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/unbill-project/unbill/releases/download/v0.0.5/unbill-cli-macos-aarch64.tar.gz"
-      sha256 "d586ae951ffdbb01884d4371b6c533663df74d360775611ffb6d4ae3a9683eba"
+      url "https://github.com/unbill-project/unbill/releases/download/v0.0.6/unbill-cli-macos-aarch64.tar.gz"
+      sha256 "67ff6bbd598939c8f75d0e422822a744527ba61b74a05878a652157ec405dc08"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/unbill-project/unbill/releases/download/v0.0.5/unbill-cli-linux-x86_64.tar.gz"
-      sha256 "68ca79c9e3d50d9945cb7510d2e9a837b34b17cb1a57f6428cea4cb03bc35b51"
+      url "https://github.com/unbill-project/unbill/releases/download/v0.0.6/unbill-cli-linux-x86_64.tar.gz"
+      sha256 "a9ae6ff82ace967650b38f2e8abc0a43a7bb1efe1b42f8bdd1fc7f00da61ece6"
     end
   end
 
