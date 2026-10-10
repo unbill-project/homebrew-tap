@@ -1,20 +1,20 @@
 class UnbillDaemon < Formula
   desc "Unbill unbill-daemon"
   homepage "https://github.com/unbill-project/unbill"
-  version "0.0.5"
+  version "0.0.6"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/unbill-project/unbill/releases/download/v0.0.5/unbill-daemon-macos-aarch64.tar.gz"
-      sha256 "924f5d8420ae38bb6fd0481637924d6104ae21b2f2a2f40798b47c669fece156"
+      url "https://github.com/unbill-project/unbill/releases/download/v0.0.6/unbill-daemon-macos-aarch64.tar.gz"
+      sha256 "4a7caaaa05fc30e4dfa307a4b81dab88c4b66834c3d3e015eefc9a47e3921b88"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/unbill-project/unbill/releases/download/v0.0.5/unbill-daemon-linux-x86_64.tar.gz"
-      sha256 "434262391f3b727fe55c9bd6bed733e6df19104e4e021bab15ab5c210305a1a9"
+      url "https://github.com/unbill-project/unbill/releases/download/v0.0.6/unbill-daemon-linux-x86_64.tar.gz"
+      sha256 "3ca547ca540a8ffaaa752bafadbe65e172cf5be07f805eed56bccc5d53125ba1"
     end
   end
 
@@ -26,5 +26,9 @@ class UnbillDaemon < Formula
     keep_alive true
     log_path var/"log/unbill-daemon.log"
     error_log_path var/"log/unbill-daemon.log"
+  end
+
+  test do
+    assert_match version.to_s, shell_output("#{bin}/unbill-daemon --version")
   end
 end
