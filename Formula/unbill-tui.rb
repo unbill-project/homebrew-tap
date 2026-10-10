@@ -21,4 +21,14 @@ class UnbillTui < Formula
   def install
     bin.install "unbill-tui"
   end
+  depends_on "unbill-project/tap/unbill-daemon"
+
+  def caveats
+    <<~EOS
+      A running unbill-daemon is required. If your daemon is already managed by
+      Nix or another installation, keep using it and do not start a second service.
+      Otherwise, start the Homebrew service with:
+        brew services start unbill-daemon
+    EOS
+  end
 end
