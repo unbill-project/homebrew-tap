@@ -1,20 +1,20 @@
 class UnbillTui < Formula
   desc "Unbill unbill-tui"
   homepage "https://github.com/unbill-project/unbill"
-  version "0.0.6"
+  version "0.0.7"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/unbill-project/unbill/releases/download/v0.0.6/unbill-tui-macos-aarch64.tar.gz"
-      sha256 "bc790f1ce7e10ad0fce5244af53335aaac31c0eb047e9c696bc6de47ce2e0f39"
+      url "https://github.com/unbill-project/unbill/releases/download/v0.0.7/unbill-tui-macos-aarch64.tar.gz"
+      sha256 "9aa431ad92038d3a5dd531f4019c55f6e65e9466fa92b2c48979bd29ace27f4e"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/unbill-project/unbill/releases/download/v0.0.6/unbill-tui-linux-x86_64.tar.gz"
-      sha256 "0c96052e0e3bfec6f997bfd60fd889d40015375a78bd490a8b0328d8194c9b61"
+      url "https://github.com/unbill-project/unbill/releases/download/v0.0.7/unbill-tui-linux-x86_64.tar.gz"
+      sha256 "12d1e49bbdaac992b82cf562940193b8e1457b50c4ddaa1b67a23c5dedc9db18"
     end
   end
 
