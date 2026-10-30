@@ -1,20 +1,20 @@
 class UnbillDaemon < Formula
   desc "Unbill unbill-daemon"
   homepage "https://github.com/unbill-project/unbill"
-  version "0.0.8"
+  version "0.0.9"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/unbill-project/unbill/releases/download/v0.0.8/unbill-daemon-macos-aarch64.tar.gz"
-      sha256 "b9389b303f29f2bc187b377ade59616bf398d8853ff15847279388b6c102b169"
+      url "https://github.com/unbill-project/unbill/releases/download/v0.0.9/unbill-daemon-macos-aarch64.tar.gz"
+      sha256 "7f29984246c409e5553ac5cab1e97c8bb81fcda0072efad4715511d627c2748a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/unbill-project/unbill/releases/download/v0.0.8/unbill-daemon-linux-x86_64.tar.gz"
-      sha256 "a8b386f4ac4fac4a1cf757a83aff8cd72b854f344d22894a9e09b8da5bceb641"
+      url "https://github.com/unbill-project/unbill/releases/download/v0.0.9/unbill-daemon-linux-x86_64.tar.gz"
+      sha256 "7e2ff9bbec9cc2097d10e1b5fd5716201c5f1c8f33a66764c016ffc955ebecfb"
     end
   end
 
