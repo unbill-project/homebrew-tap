@@ -1,8 +1,8 @@
 cask "unbill" do
-  version "0.0.9"
-  sha256 "1490f2375ca8bcbc365eafe4e63aaf0aa43c16f1b822eb389ae5d1a5d7db9a39"
+  version "0.0.10"
+  sha256 "bd8ad477e055edf4e832ca5b1390040a71515c5bbddeeb8219f9ba136fce4009"
 
-  url "https://github.com/unbill-project/unbill/releases/download/v0.0.9/unbill-macos-aarch64.dmg"
+  url "https://github.com/unbill-project/unbill/releases/download/v0.0.10/unbill-macos-aarch64.dmg"
   name "Unbill"
   desc "Split bills with friends — offline-first, peer-to-peer"
   homepage "https://github.com/unbill-project/unbill"
